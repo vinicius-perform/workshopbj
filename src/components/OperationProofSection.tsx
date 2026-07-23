@@ -36,7 +36,7 @@ export const OperationProofSection: React.FC = () => {
             <div className="space-y-4">
               <div className="rounded-2xl overflow-hidden border border-[#F0D8B5]/20 shadow-xl h-64 sm:h-80">
                 <img 
-                  src="/assets/barbershop-busy.jpg" 
+                  src="/IMG_8274.jpg" 
                   alt="Operação em movimento na Barbearia BEJOTA" 
                   className="w-full h-full object-cover filter brightness-90 hover:scale-105 transition-transform duration-500"
                 />
@@ -58,7 +58,7 @@ export const OperationProofSection: React.FC = () => {
               </div>
               <div className="rounded-2xl overflow-hidden border border-[#F0D8B5]/20 shadow-xl h-64 sm:h-80">
                 <img 
-                  src="/assets/barbershop-chairs.jpg" 
+                  src="/IMG_8428.jpg" 
                   alt="Estrutura da Barbearia BEJOTA" 
                   className="w-full h-full object-cover filter brightness-90 hover:scale-105 transition-transform duration-500"
                 />

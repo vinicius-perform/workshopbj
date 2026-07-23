@@ -1,7 +1,7 @@
 import React from 'react';
 import { handleCtaClick, eventConfig } from '../config/eventConfig';
 import { SectionEyebrow } from './ui/SectionEyebrow';
-import { Calendar, Clock, MapPin, Users, ArrowRight, ChevronDown } from 'lucide-react';
+import { Calendar, MapPin, ArrowRight, ChevronDown } from 'lucide-react';
 
 export const HeroSection: React.FC = () => {
   return (
@@ -46,20 +46,12 @@ export const HeroSection: React.FC = () => {
           </div>
 
           {/* Quick Info Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 py-2 border-y border-[#F0D8B5]/20 justify-items-center md:justify-items-start text-left">
+          <div className="grid grid-cols-2 gap-4 py-2 border-y border-[#F0D8B5]/20 justify-items-center md:justify-items-start text-left max-w-md mx-auto md:mx-0">
             <div className="flex items-center gap-2 text-white/90">
               <Calendar className="w-4 h-4 text-[#F0D8B5] shrink-0" />
               <div>
                 <span className="block text-[9px] sm:text-[10px] text-white/50 font-heading uppercase tracking-wider">Data</span>
                 <span className="text-[11px] sm:text-xs font-semibold font-heading tracking-wide">02 DE AGOSTO DE 2026</span>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-2 text-white/90">
-              <Clock className="w-4 h-4 text-[#F0D8B5] shrink-0" />
-              <div>
-                <span className="block text-[9px] sm:text-[10px] text-white/50 font-heading uppercase tracking-wider">Horário</span>
-                <span className="text-[11px] sm:text-xs font-semibold font-heading tracking-wide">08H30 ÀS 18H40</span>
               </div>
             </div>
 
@@ -75,14 +67,6 @@ export const HeroSection: React.FC = () => {
                 <span className="text-[11px] sm:text-xs font-semibold font-heading tracking-wide underline underline-offset-2">ITAPIPOCA / CE</span>
               </div>
             </a>
-
-            <div className="flex items-center gap-2 text-white/90">
-              <Users className="w-4 h-4 text-[#F0D8B5] shrink-0" />
-              <div>
-                <span className="block text-[9px] sm:text-[10px] text-white/50 font-heading uppercase tracking-wider">Capacidade</span>
-                <span className="text-[11px] sm:text-xs font-semibold font-heading tracking-wide text-[#F0D8B5]">15 VAGAS MÁX.</span>
-              </div>
-            </div>
           </div>
 
           {/* CTAs & Microcopy */}
